@@ -1,0 +1,83 @@
+/* Skip link */
+.skip {
+    position: absolute;
+    top: -40px;
+    background: #000;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    z-index: 1000;
+}
+.skip:focus {
+    top: 0;
+}
+
+/* Remove previous li design (example) */
+/* li { … } */
+
+/* Navigation */
+nav {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* inline-block for nav items */
+nav ul li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+/* Links inside nav */
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+
+/* Descendant selector for logo image */
+nav img {
+    width: 10%;
+    border-radius: 6px;
+}
+
+/* GRID SECTION */
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 25px;
+    margin-top: 40px;
+}
+
+/* Only images inside grid */
+.grid img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* FLEX SECTION */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 50px;
+}
+
+.flex img {
+    width: 180px;
+    border-radius: 10px;
+}
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+    background: #fafafa;
+    color: #333;
+}
