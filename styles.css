@@ -2,18 +2,16 @@
 .skip {
     position: absolute;
     top: -40px;
+    left: 10px;
     background: #000;
-    color: white;
+    color: #fff;
     padding: 10px;
     text-decoration: none;
-    z-index: 1000;
+    z-index: 999;
 }
 .skip:focus {
-    top: 0;
+    top: 10px;
 }
-
-/* Remove previous li design (example) */
-/* li { … } */
 
 /* Navigation */
 nav {
@@ -24,42 +22,38 @@ nav {
     justify-content: space-between;
 }
 
-/* inline-block for nav items */
 nav ul li {
     display: inline-block;
     margin-left: 15px;
 }
 
-/* Links inside nav */
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: #111;
     font-weight: 600;
 }
 
-/* Descendant selector for logo image */
+/* Logo */
 nav img {
     width: 10%;
-    border-radius: 6px;
+    border-radius: 8px;
 }
 
-/* GRID SECTION */
+/* Grid */
 .grid {
     display: grid;
     grid-template-columns: 40% 40%;
     justify-content: space-between;
-    align-items: center;
     row-gap: 25px;
     margin-top: 40px;
 }
 
-/* Only images inside grid */
 .grid img {
     width: 100%;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
-/* FLEX SECTION */
+/* Flex */
 .flex {
     display: flex;
     flex-wrap: wrap;
@@ -73,11 +67,13 @@ nav img {
     border-radius: 10px;
 }
 
-/* General body styling */
+/* General */
 body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    line-height: 1.6;
     background: #fafafa;
-    color: #333;
+    color: #222;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
 }
+
+   
